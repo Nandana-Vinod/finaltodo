@@ -1,0 +1,49 @@
+/* Basic layout for the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-color: rgb(6, 68, 37);  /* Dark background */
+  color: black;
+  height: 100vh;
+}
+
+/* Material Card styling */
+.welcome-card {
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  background-color: rgb(236, 160, 160);
+   text-align: center;
+  border-radius: 8px;
+}
+
+/* Styling the welcome message */
+.welcome-message {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Space between language buttons */
+.language-buttons {
+  margin-bottom: 30px;
+}
+
+/* Space between navigation buttons */
+.navigation-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.navigation-buttons a {
+  margin: 5px;
+}
+
+/* Add elevation to card */
+.mat-elevation-z4 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+ 

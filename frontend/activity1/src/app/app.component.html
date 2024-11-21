@@ -1,0 +1,23 @@
+<div class="container text-center mat-elevation-z4">
+  <mat-card class="welcome-card">
+    <!-- Welcome Message -->
+    <h1 class="welcome-message">{{ 'WELCOME' | translate }}</h1>
+
+    <!-- Language Selection Buttons -->
+    <div class="language-buttons">
+      <button mat-raised-button color="primary" (click)="changeLanguage('en')">English</button>
+      <button mat-raised-button color="accent" (click)="changeLanguage('ml')">Malayalam</button>
+      <button mat-raised-button color="warn" (click)="changeLanguage('fr')">French</button>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="navigation-buttons">
+      <a mat-raised-button color="primary" routerLink="/reg">Register</a>
+      <br><br>
+      <a mat-raised-button color="primary" routerLink="/log">Login</a>
+    </div>
+  </mat-card>
+
+  <!-- Routed content -->
+  <router-outlet></router-outlet>
+</div>

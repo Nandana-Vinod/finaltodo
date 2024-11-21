@@ -1,0 +1,46 @@
+/* Centering the container and adding padding */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    background-color: #2c3e50;  /* Dark background */
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+  }
+  
+  /* Material form fields with a bottom margin */
+  .mat-form-field {
+    width: 100%; /* Full width for form fields */
+    margin-bottom: 16px; /* Add spacing between fields */
+  }
+  
+  /* Heading styles */
+  h1.text-center {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px; /* Space below heading */
+  }
+  
+  /* Button styling */
+  button.mat-raised-button {
+    width: 100%; /* Full-width button */
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+      width: 90%; /* Adjust container width for smaller screens */
+    }
+    
+    button.mat-raised-button {
+      font-size: 1rem;
+    }
+  }
+  

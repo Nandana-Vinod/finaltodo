@@ -1,0 +1,64 @@
+/* Ensure full-width form fields */
+.full-width {
+    width: 100%;
+    margin-bottom: 16px; /* Space between form fields */
+  }
+  
+  /* Center container with a dark background */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(236, 160, 160);}
+  
+  /* Mat-card with proper padding */
+  mat-card {
+    background-color: rgb(236, 160, 160);  
+     border-radius: 8px;  /* Round corners */
+    padding: 40px;
+    width: 100%;
+  }
+  
+  /* Header text styles */
+  h1.text-center {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;  /* Space between header and form */
+  }
+  
+  /* Form field label and input styling */
+  .mat-form-field {
+    margin-bottom: 20px;
+  }
+  
+  /* Make the radio buttons appear in a row */
+  .mat-radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px; /* Space before submit button */
+  }
+  
+  /* Button styling */
+  button.mat-raised-button {
+    width: 100%; /* Full-width button */
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Responsive design: For smaller screens */
+  @media (max-width: 600px) {
+    mat-card {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    button.mat-raised-button {
+      font-size: 0.9rem;
+    }
+  
+    .full-width {
+      margin-bottom: 12px;
+    }
+  }
+  
